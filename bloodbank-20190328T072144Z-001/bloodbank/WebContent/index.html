@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/index.css" type="text/css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home"  style="float:left ;font-style: italic;font-size: 25px;  padding-bottom: 8px;  padding-top: 8px;">Company Logo</a>
+  <a href="#vvvv">Need Blood ?</a>
+  <a href="login.html">Login</a>
+  <a href="index.html" class="active">Home</a>
+  <a href="javascript:void(0);" class="icon" onclick="w3_open()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">NEED BLOOD?</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">LOGIN</a>
+</nav>
+
+
+
+
+
+
+<script>
+  var mySidebar = document.getElementById("mySidebar");
+
+  function w3_open() {
+    if (mySidebar.style.display === 'block') {
+      mySidebar.style.display = 'none';
+    } else {
+      mySidebar.style.display = 'block';
+    }
+  }
+
+  // Close the sidebar with the close button
+  function w3_close() {
+      mySidebar.style.display = "none";
+  }
+</script>
+</body>
+
+</html>

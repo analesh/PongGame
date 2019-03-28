@@ -1,0 +1,31 @@
+table {
+  margin-left:25%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  align:center;
+  
+  border-collapse: collapse;
+  border-spacing: 0;
+ 
+  background-color:#e8b2bc;
+  color:white;
+}
+
+td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color:  black;
+}
+th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  color: grey;
+  background-color: #e8b2bc;
+}
+
+tr {
+  background-color:  white;
+}
